@@ -6,7 +6,7 @@
     for (element of json) {
       txt += "<div class=\"container\" style=\"padding-bottom: 20px; padding-top: 20px\">\
       <a href=\"blog-template.html?id=" + element.id + "&title=" + element.fields.Title + "\">\
-      <div id=" + element.id + " class=\"button wrap is-fullwidth is-large is-primary is-bold\" style=\"height: 100px;\">\
+      <div id=" + element.id + " class=\"button wrap is-fullwidth is-large is-primary is-bold\">\
       <article class=\"media\">\
       <figure class=\"media-content\">\
       <h1 class=\"title is-size-4\">" + element.fields.Title + "</h1>" +
