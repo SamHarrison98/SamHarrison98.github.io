@@ -13,7 +13,6 @@
       "<h2 class=\"subtitle\">" + element.fields.Date.start_date + "</h2>" +
       "</figure></article></div></a></div>"
       document.getElementById("Blog_Posts").innerHTML = txt;
-      console.log(json)
 
   }
 })
