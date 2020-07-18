@@ -10,5 +10,5 @@ fetch("https://potion-api.now.sh/html?id=" + notionDocId)
   .then(res => res.text())
   .then(text => {
     console.log(text)
-    document.querySelector("main").innerHTML = "<h1 class=\"title\" style=\"text-align: center; padding-top: 40px;\">" + title + "</h1>" + text
+    document.querySelector("main").innerHTML = "<h1 class=\"title\" style=\"text-align: center; padding-top: 40px; color: white;\">" + title + "</h1>" + text
   })
