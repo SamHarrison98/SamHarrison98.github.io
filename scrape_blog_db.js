@@ -2,7 +2,7 @@
   var txt = ""
   fetch("https://potion-api.now.sh/table?id=be173b7ca74c48ca80d7a8b2dbd3f9dc")
   .then(res => res.json())
-  .then(json => {
+  .then(async json => {
     for (element of json) {
       txt += "<div class=\"container\" style=\"padding-bottom: 20px; padding-top: 20px\">\
       <a href=\"blog-template.html?id=" + element.id + "&title=" + element.fields.Title + "\">\
